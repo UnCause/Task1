@@ -1,0 +1,265 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap&');
+    body {
+        font-family: "Roboto";
+        margin: 0
+    }
+    
+    img {
+        vertical-align: middle;
+    }
+    
+    .container {
+        max-width: 1050px;
+        margin: 0 auto;
+    }
+    
+    header {
+        text-align: left;
+        z-index: 1;
+        /* max-height: 70px; */
+        background-color: #E7E7E7;
+        position: fixed;
+        width: 100%;
+        /* max-width: 1050px; */
+        /* position: fixed;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex: 1 1 100%;*/
+    }
+    
+    .nav_container {
+        display: flex;
+        margin-left: auto;
+        width: 100%;
+    }
+    
+    .nav_container a {
+        width: 30%;
+        margin: 0 80px;
+    }
+    
+    .header_container {
+        display: flex;
+        /* margin: 0 auto; */
+        max-width: 1050px;
+        width: 100%;
+        align-items: center;
+    }
+    
+    header a {
+        display: flex;
+        /* width: 25%; */
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    header a:not(:first-child) {
+        padding-left: 0 15px;
+    }
+    
+    .header_logo {
+        display: flex;
+        margin-right: 15px;
+        width: 15%;
+    }
+    
+    header p {
+        font-weight: bolder;
+        margin-left: 5px;
+    }
+    
+    .logo {
+        margin-top: 10px;
+        width: 40%;
+        height: 40%;
+    }
+    
+    .button_nav:hover {
+        text-shadow: black 2px 2px 3px;
+    }
+    
+    .button_nav {
+        font-weight: bolder;
+        /* margin: auto; */
+        /* flex: 1 1 33.3333%; */
+    }
+    
+    main {
+        padding-top: 100px;
+        display: block;
+    }
+    
+    .banner1 {
+        display: block;
+    }
+    
+    .banner1 h2 {
+        text-align: center;
+    }
+    
+    .banner1 img {
+        display: block;
+        margin: auto;
+    }
+    
+    .banner1_1 {
+        text-indent: 3%;
+        font-size: large;
+    }
+    
+    main div {
+        margin: 0 auto;
+        max-width: 1050px;
+    }
+    
+    .main p {
+        text-indent: 3%;
+        font-size: large;
+    }
+    
+    .list_title {
+        font-weight: bold;
+    }
+    
+    ol {
+        list-style-type: upper-latin;
+    }
+    
+    ul {
+        list-style-type: circle;
+    }
+    
+    .watermelon1 {
+        display: flex;
+        padding-top: 15px;
+    }
+    
+    .watermelon2 {
+        display: flex;
+        padding-top: 15px;
+    }
+    
+    .watermelon3 {
+        display: flex;
+        padding-top: 15px;
+    }
+    
+    .watermelon4 {
+        display: flex;
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+    
+    .watermelon1_1 {
+        padding-left: 15px;
+        max-width: 70%;
+    }
+    
+    .watermelon2_1 {
+        padding-left: 15px;
+        max-width: 70%;
+    }
+    
+    .watermelon3_1 {
+        padding-left: 15px;
+        max-width: 70%;
+    }
+    
+    .watermelon4_1 {
+        padding-left: 15px;
+        max-width: 70%;
+    }
+    
+    .watermelon2_img {
+        width: 30%;
+    }
+    
+    .watermelon3_img {
+        width: 30%;
+    }
+    
+    .watermelon4_img {
+        width: 30%;
+    }
+    
+    .recipe1 {
+        display: flex;
+        padding-top: 15px;
+    }
+    
+    .recipe2 {
+        display: flex;
+        padding-top: 15px;
+    }
+    
+    .recipe3 {
+        display: flex;
+        padding-top: 15px;
+    }
+    
+    .recipe4 {
+        display: flex;
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+    
+    .recipe1_1 {
+        padding-left: 15px;
+        max-width: 70%;
+        text-indent: 25px;
+    }
+    
+    .recipe2_1 {
+        padding-left: 15px;
+        max-width: 70%;
+        text-indent: 25px;
+    }
+    
+    .recipe3_1 {
+        padding-left: 15px;
+        max-width: 70%;
+        text-indent: 25px;
+    }
+    
+    .recipe4_1 {
+        padding-left: 15px;
+        max-width: 70%;
+        text-indent: 25px;
+    }
+    
+    .rec_img1 {
+        height: 30%;
+        width: 60%;
+    }
+    
+    .rec_img2 {
+        height: 30%;
+        width: 30%;
+    }
+    
+    .rec_img3 {
+        height: 30%;
+        width: 35%;
+    }
+    
+    .rec_img4 {
+        height: 30%;
+        width: 30%;
+    }
+    
+    .recipe1_text {
+        margin: 0 auto;
+        padding-top: 15px;
+        max-width: 1050px;
+        text-indent: 25px;
+    }
+    
+    table {
+        border-collapse: collapse;
+        border: 1px solid grey;
+    }
+    
+    td {
+        border: 1px solid grey;
+    }
